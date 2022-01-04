@@ -14,7 +14,7 @@ arXiv:####.#### (please cite this paper if using samples).
 
 The parameters included in the feather files
 <prior>/<evname>_posterior_samples.feather
-are defined below.
+are defined below. *Note* all masses are in units of solar mass.
 
 
 # names for each parameter that are recognized by labelling system
@@ -28,8 +28,8 @@ param_names = {'mchirp': 'Detector Frame Chirp Mass',
                'm2_source': 'Source Frame Smaller Mass',
                'mtot_source': 'Source Frame Total Mass',
                'mchirp_source': 'Source Frame Chirp Mass',
-               'd_luminosity': 'Luminosity Distance',
-               'd_comoving': 'Comoving Distance',
+               'd_luminosity': 'Luminosity Distance (Mpc)',
+               'd_comoving': 'Comoving Distance (Mpc)',
                'z': 'Redshift',
                's1x': '(Dimensionless) Spin X-Component of Larger Mass',
                's1y': '(Dimensionless) Spin Y-Component of Larger Mass',
@@ -37,15 +37,19 @@ param_names = {'mchirp': 'Detector Frame Chirp Mass',
                's2x': '(Dimensionless) Spin X-Component of Smaller Mass',
                's2y': '(Dimensionless) Spin Y-Component of Smaller Mass',
                's2z': '(Dimensionless) Spin Z-Component of Smaller Mass',
-               'ra': 'Right Ascension',
-               'dec': 'Declination',
-               'psi': 'Polarization Phase',
-               'vphi': 'Orbital Phase',
-               'iota': 'Inclination',
-               't_geocenter': 'Geocenter Time - GPS Time',
-               'tgps': 'GPS Time',
+               'ra': 'Right Ascension (rad)',
+               'dec': 'Declination (rad)',
+               'psi': 'Polarization Phase (rad)',
+               'vphi': 'Orbital Phase (rad)',
+               'iota': 'Inclination (rad)',
+               't_geocenter': 'Geocenter Time - GPS Time (s)',
+               'tgps': 'GPS Time (s)',
+               'f_ref': 'Reference Frequency (Hz)'
                'lnl': 'Log Likelihood',
                'lnl_aux_H': 'Hanford Log Likelihood (Stationary Noise)',
                'lnl_aux_L': 'Livingston Log Likelihood (Stationary Noise)',
-               'lnl_aux_V': 'Virgo Log Likelihood (Stationary Noise)'}
+               'lnl_aux_V': 'Virgo Log Likelihood (Stationary Noise),
+               'asd_drift_H': 'Hanford Amplitude Spectral Density Drift Correction',
+               'asd_drift_L': 'Livingston Amplitude Spectral Density Drift Correction',
+               'asd_drift_V': 'Virgo Amplitude Spectral Density Drift Correction'}
                
