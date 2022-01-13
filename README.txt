@@ -10,7 +10,7 @@ ten new BBH merger events found in the LIGO--Virgo collaboration (LVC)
 data from the first half of the third observing run (O3a) using the
 IAS pipeline (described in doi:10.1103/PhysRevD.100.023011 and
 doi:10.1103/PhysRevD.101.083030). These results are presented in
-arXiv:####.#### (please cite this paper if using samples).
+https://arxiv.org/abs/2201.02252 (please cite this paper if using samples).
 
 The parameters included in the feather files
 <prior>/<evname>_posterior_samples.feather
