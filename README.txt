@@ -12,12 +12,14 @@ IAS pipeline (described in doi:10.1103/PhysRevD.100.023011 and
 doi:10.1103/PhysRevD.101.083030). These results are presented in
 https://arxiv.org/abs/2201.02252 (please cite this paper if using samples).
 
+The directory Data contains a .npz for each event, which includes the
+data and power spectral density (PSD) at each detector in the frequency
+domain, and the grid of frequencies (in Hz) at which they are defined.
+
 The parameters included in the feather files
 <prior>/<evname>_posterior_samples.feather
 are defined below. *Note* all masses are in units of solar mass.
 
-
-# names for each parameter that are recognized by labelling system
 param_names = {'mchirp': 'Detector Frame Chirp Mass',
                'q': 'Mass Ratio',
                'chieff': 'Effective Spin',
@@ -42,9 +44,13 @@ param_names = {'mchirp': 'Detector Frame Chirp Mass',
                'psi': 'Polarization Phase (rad)',
                'vphi': 'Orbital Phase (rad)',
                'iota': 'Inclination (rad)',
-               't_geocenter': 'Geocenter Time - GPS Time (s)',
-               'tgps': 'GPS Time (s)',
-               'f_ref': 'Reference Frequency (Hz)'
+               'tgps_geocenter': 'GPS Time (s) at Geocenter',
+               'tgps_H': 'GPS Time (s) at Hanford',
+               'tgps_L': 'GPS Time (s) at Livingston',
+               'tgps_V': 'GPS Time (s) at Virgo',
+               'f_ref': 'Reference Frequency (Hz)',
+               'f_lo': Minimum Frequency (Hz) in Analysis Band,
+               'f_lo': Maximum Frequency (Hz) in Analysis Band,
                'lnl': 'Log Likelihood',
                'lnl_aux_H': 'Hanford Log Likelihood (Stationary Noise)',
                'lnl_aux_L': 'Livingston Log Likelihood (Stationary Noise)',
