@@ -17,7 +17,13 @@ domain, and the grid of frequencies (in Hz) at which they are defined.
 
 The parameters included in the feather files
 <prior>/<evname>_posterior_samples.feather
-are defined below. *Note* all masses are in units of solar mass.
+are defined below.
+
+*Note* all masses are in units of solar mass.
+
+*Note* the variables iota and vphi correspond to the lalsimulation
+parameters inclination and phiRef, respectively, which are defined
+at the reference epoch (time when 22 frequency is f_ref).
 
 param_names = {'mchirp': 'Detector Frame Chirp Mass',
                'q': 'Mass Ratio',
