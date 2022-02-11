@@ -64,3 +64,12 @@ param_names = {'mchirp': 'Detector Frame Chirp Mass',
                'asd_drift_L': 'Livingston Amplitude Spectral Density Drift Correction',
                'asd_drift_V': 'Virgo Amplitude Spectral Density Drift Correction'}
                
+
+There is also an HDF file called IAS_O3a_triggers.hdf containing all of the
+triggers with FAR below 1 per day. It has a single group ('triggers'),
+and the dataset keys follow the conventions of the 4-OGC data release
+(https://github.com/gwastro/4-ogc/blob/master/search/4-OGC_small.hdf),
+except that our trigger times are in 'linear-free' coordinates
+(note that these two conventions differ by a shift that depends on 
+the intrinsic parameters, with a difference less than 0.1s for most sources
+but up to roughly 0.3s for the lightest BBH systems).
