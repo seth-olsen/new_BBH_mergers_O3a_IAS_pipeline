@@ -142,7 +142,10 @@ def _condition_value_and_error(value, error) -> dict:
     min_error = np.min(error)
 
     if min_error == 0:
-        return f'${value:.2g}$'
+        return {'best': float(f'{value:.2g}'),
+                'lower': float(f'{-error[0]:.2g}'),
+                'upper': float(f'{error[1]:.2g}'),
+                'sigfigs': None}
 
     last_decimal = _first_decimal_place(min_error)
     if f'{min_error:e}'.startswith('1'):
