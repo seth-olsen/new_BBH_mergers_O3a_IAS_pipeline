@@ -45,7 +45,7 @@ DOI = 'https://doi.org/10.1103/PhysRevD.106.043009'
 
 TOPDIR = Path(__file__).parents[1]
 WAVEFORM_FAMILY = 'IMRPhenomXPHM'
-
+PIPELINE_NAME = 'IAS'
 PRIORDIRS = sorted(TOPDIR.glob('*Prior*'))
 
 
@@ -119,7 +119,7 @@ def make_event(eventname, description=None, priors=None,
         parameter_set = schema.ParameterSet.from_samples(
             samples=samples[list(keys)],
             name=priordir.name,
-            type='pe',
+            kind='pe',
             data_url=REPO_URL,
             waveform_family=WAVEFORM_FAMILY,
             links=[link]
@@ -129,8 +129,16 @@ def make_event(eventname, description=None, priors=None,
     gps = round(METADATA_DICT[eventname]['tgps'], 1)
     eventdata_dic = np.load(TOPDIR/'Data'/f'{eventname}_data.npz')
     detectors = [f'{det}1' for det in eventdata_dic['detector_names'][()]]
-
-    return schema.Event(eventname, gps, detectors, pe_sets, description)
+    
+    far = float(f"{1 / METADATA_DICT[eventname]['ifar_years']:.2g}")
+    pastro = round(METADATA_DICT[eventname]['pastro'], 2)
+    search_results = [schema.SearchResult(PIPELINE_NAME, pastro=pastro, far=far)]
+    return schema.Event(name=eventname,
+                        gps=gps,
+                        detectors=detectors,
+                        search=search_results,
+                        pe_sets=pe_sets,
+                        description=description)
 
 
 def make_catalog(eventnames=EVENTNAMES, **kwargs):

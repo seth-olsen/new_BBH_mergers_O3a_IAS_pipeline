@@ -11,12 +11,19 @@
         "L1",
         "V1"
       ],
+      "search": [
+        {
+          "pipeline": "IAS",
+          "pastro": 0.81,
+          "far": 0.35
+        }
+      ],
       "pe_sets": [
         {
           "name": "IASPrior",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -26,7 +33,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -36,7 +43,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -46,7 +53,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 1,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -56,7 +63,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -66,7 +73,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -109,9 +116,9 @@
         },
         {
           "name": "IASPriorComovingVT",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -121,7 +128,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -131,7 +138,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -141,7 +148,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 1,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -151,7 +158,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -161,7 +168,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -204,9 +211,9 @@
         },
         {
           "name": "LVCPrior",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -216,7 +223,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -226,7 +233,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 4,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -236,7 +243,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -246,7 +253,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -256,7 +263,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -299,9 +306,9 @@
         },
         {
           "name": "LVCPriorComovingVT",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -311,7 +318,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -321,7 +328,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 4,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -331,7 +338,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -341,7 +348,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -351,7 +358,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -402,12 +409,19 @@
         "H1",
         "L1"
       ],
+      "search": [
+        {
+          "pipeline": "IAS",
+          "pastro": 0.94,
+          "far": 0.043
+        }
+      ],
       "pe_sets": [
         {
           "name": "IASPrior",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -417,7 +431,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -427,7 +441,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -437,7 +451,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -447,7 +461,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -457,7 +471,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -500,9 +514,9 @@
         },
         {
           "name": "IASPriorComovingVT",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -512,7 +526,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -522,7 +536,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -532,7 +546,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -542,7 +556,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -552,7 +566,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -595,9 +609,9 @@
         },
         {
           "name": "LVCPrior",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -607,7 +621,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -617,7 +631,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -627,7 +641,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -637,7 +651,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -647,7 +661,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -690,9 +704,9 @@
         },
         {
           "name": "LVCPriorComovingVT",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -702,7 +716,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -712,7 +726,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -722,7 +736,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -732,7 +746,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -742,7 +756,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -793,12 +807,19 @@
         "H1",
         "L1"
       ],
+      "search": [
+        {
+          "pipeline": "IAS",
+          "pastro": 0.93,
+          "far": 0.09
+        }
+      ],
       "pe_sets": [
         {
           "name": "IASPrior",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -808,7 +829,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -818,7 +839,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -828,7 +849,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 1,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -838,7 +859,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -848,7 +869,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -891,9 +912,9 @@
         },
         {
           "name": "IASPriorComovingVT",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -903,7 +924,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -913,7 +934,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -923,7 +944,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 1,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -933,7 +954,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -943,7 +964,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -986,9 +1007,9 @@
         },
         {
           "name": "LVCPrior",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -998,7 +1019,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -1008,7 +1029,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -1018,7 +1039,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -1028,7 +1049,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -1038,7 +1059,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -1081,9 +1102,9 @@
         },
         {
           "name": "LVCPriorComovingVT",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -1093,7 +1114,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -1103,7 +1124,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -1113,7 +1134,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -1123,7 +1144,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -1133,7 +1154,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -1185,12 +1206,19 @@
         "L1",
         "V1"
       ],
+      "search": [
+        {
+          "pipeline": "IAS",
+          "pastro": 0.53,
+          "far": 2.1
+        }
+      ],
       "pe_sets": [
         {
           "name": "IASPrior",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -1200,7 +1228,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -1210,7 +1238,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -1220,7 +1248,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -1230,7 +1258,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -1240,7 +1268,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -1283,9 +1311,9 @@
         },
         {
           "name": "IASPriorComovingVT",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -1295,7 +1323,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -1305,7 +1333,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -1315,7 +1343,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -1325,7 +1353,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -1335,7 +1363,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -1378,9 +1406,9 @@
         },
         {
           "name": "LVCPrior",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -1390,7 +1418,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -1400,7 +1428,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -1410,7 +1438,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -1420,7 +1448,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -1430,7 +1458,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -1473,9 +1501,9 @@
         },
         {
           "name": "LVCPriorComovingVT",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -1485,7 +1513,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -1495,7 +1523,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -1505,7 +1533,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -1515,7 +1543,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -1525,7 +1553,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -1576,12 +1604,19 @@
         "H1",
         "L1"
       ],
+      "search": [
+        {
+          "pipeline": "IAS",
+          "pastro": 0.64,
+          "far": 1.5
+        }
+      ],
       "pe_sets": [
         {
           "name": "IASPrior",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -1591,7 +1626,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -1601,7 +1636,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -1611,7 +1646,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -1621,7 +1656,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -1631,7 +1666,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -1674,9 +1709,9 @@
         },
         {
           "name": "IASPriorComovingVT",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -1686,7 +1721,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -1696,7 +1731,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -1706,7 +1741,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -1716,7 +1751,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -1726,7 +1761,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -1769,9 +1804,9 @@
         },
         {
           "name": "LVCPrior",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -1781,7 +1816,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -1791,7 +1826,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -1801,7 +1836,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -1811,7 +1846,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -1821,7 +1856,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -1864,9 +1899,9 @@
         },
         {
           "name": "LVCPriorComovingVT",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -1876,7 +1911,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -1886,7 +1921,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -1896,7 +1931,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -1906,7 +1941,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -1916,7 +1951,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -1968,12 +2003,19 @@
         "L1",
         "V1"
       ],
+      "search": [
+        {
+          "pipeline": "IAS",
+          "pastro": 0.81,
+          "far": 0.29
+        }
+      ],
       "pe_sets": [
         {
           "name": "IASPrior",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -1983,7 +2025,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -1993,7 +2035,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -2003,7 +2045,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -2013,7 +2055,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -2023,7 +2065,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -2066,9 +2108,9 @@
         },
         {
           "name": "IASPriorComovingVT",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -2078,7 +2120,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -2088,7 +2130,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -2098,7 +2140,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -2108,7 +2150,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -2118,7 +2160,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -2161,9 +2203,9 @@
         },
         {
           "name": "LVCPrior",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -2173,7 +2215,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -2183,7 +2225,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -2193,7 +2235,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 1,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -2203,7 +2245,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -2213,7 +2255,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -2256,9 +2298,9 @@
         },
         {
           "name": "LVCPriorComovingVT",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -2268,7 +2310,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -2278,7 +2320,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -2288,7 +2330,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 1,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -2298,7 +2340,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -2308,7 +2350,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -2360,12 +2402,19 @@
         "L1",
         "V1"
       ],
+      "search": [
+        {
+          "pipeline": "IAS",
+          "pastro": 0.6,
+          "far": 1.4
+        }
+      ],
       "pe_sets": [
         {
           "name": "IASPrior",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -2375,7 +2424,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -2385,7 +2434,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -2395,7 +2444,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -2405,7 +2454,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -2415,7 +2464,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -2458,9 +2507,9 @@
         },
         {
           "name": "IASPriorComovingVT",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -2470,7 +2519,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -2480,7 +2529,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -2490,7 +2539,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -2500,7 +2549,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -2510,7 +2559,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -2553,9 +2602,9 @@
         },
         {
           "name": "LVCPrior",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -2565,7 +2614,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -2575,7 +2624,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -2585,7 +2634,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -2595,7 +2644,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -2605,7 +2654,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -2648,9 +2697,9 @@
         },
         {
           "name": "LVCPriorComovingVT",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -2660,7 +2709,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -2670,7 +2719,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -2680,7 +2729,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -2690,7 +2739,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -2700,7 +2749,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -2752,12 +2801,19 @@
         "L1",
         "V1"
       ],
+      "search": [
+        {
+          "pipeline": "IAS",
+          "pastro": 0.61,
+          "far": 1.4
+        }
+      ],
       "pe_sets": [
         {
           "name": "IASPrior",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -2767,7 +2823,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -2777,7 +2833,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -2787,7 +2843,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -2797,7 +2853,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -2807,7 +2863,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -2850,9 +2906,9 @@
         },
         {
           "name": "IASPriorComovingVT",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -2862,7 +2918,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -2872,7 +2928,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -2882,7 +2938,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -2892,7 +2948,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -2902,7 +2958,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -2945,9 +3001,9 @@
         },
         {
           "name": "LVCPrior",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -2957,7 +3013,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -2967,7 +3023,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -2977,7 +3033,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -2987,7 +3043,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -2997,7 +3053,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -3040,9 +3096,9 @@
         },
         {
           "name": "LVCPriorComovingVT",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -3052,7 +3108,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -3062,7 +3118,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -3072,7 +3128,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -3082,7 +3138,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -3092,7 +3148,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -3144,12 +3200,19 @@
         "L1",
         "V1"
       ],
+      "search": [
+        {
+          "pipeline": "IAS",
+          "pastro": 0.58,
+          "far": 1.5
+        }
+      ],
       "pe_sets": [
         {
           "name": "IASPrior",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -3159,7 +3222,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -3169,7 +3232,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -3179,7 +3242,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -3189,7 +3252,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -3199,7 +3262,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -3242,9 +3305,9 @@
         },
         {
           "name": "IASPriorComovingVT",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -3254,7 +3317,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -3264,7 +3327,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -3274,7 +3337,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -3284,7 +3347,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -3294,7 +3357,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -3337,9 +3400,9 @@
         },
         {
           "name": "LVCPrior",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -3349,7 +3412,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -3359,7 +3422,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -3369,7 +3432,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -3379,7 +3442,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -3389,7 +3452,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -3432,9 +3495,9 @@
         },
         {
           "name": "LVCPriorComovingVT",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -3444,7 +3507,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -3454,7 +3517,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -3464,7 +3527,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -3474,7 +3537,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -3484,7 +3547,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -3535,12 +3598,19 @@
         "H1",
         "L1"
       ],
+      "search": [
+        {
+          "pipeline": "IAS",
+          "pastro": 0.57,
+          "far": 1.8
+        }
+      ],
       "pe_sets": [
         {
           "name": "IASPrior",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -3550,7 +3620,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -3560,7 +3630,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 4,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -3570,7 +3640,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -3580,7 +3650,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -3590,7 +3660,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -3633,9 +3703,9 @@
         },
         {
           "name": "IASPriorComovingVT",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -3645,7 +3715,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -3655,7 +3725,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 4,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -3665,7 +3735,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -3675,7 +3745,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -3685,7 +3755,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -3728,9 +3798,9 @@
         },
         {
           "name": "LVCPrior",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -3740,7 +3810,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -3750,7 +3820,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 4,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -3760,7 +3830,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -3770,7 +3840,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -3780,7 +3850,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",
@@ -3823,9 +3893,9 @@
         },
         {
           "name": "LVCPriorComovingVT",
-          "type": "pe",
-          "data-url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
-          "waveform-family": "IMRPhenomXPHM",
+          "kind": "pe",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "name": "chirp_mass_source",
@@ -3835,7 +3905,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chirp_mass",
@@ -3845,7 +3915,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 4,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_1_source",
@@ -3855,7 +3925,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "mass_2_source",
@@ -3865,7 +3935,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 2,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "total_mass_source",
@@ -3875,7 +3945,7 @@
               "upper_limit": false,
               "lower_limit": false,
               "sigfigs": 3,
-              "unit": "MSun"
+              "unit": "Msun"
             },
             {
               "name": "chi_eff",

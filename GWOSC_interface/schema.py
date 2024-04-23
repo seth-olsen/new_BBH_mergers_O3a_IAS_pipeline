@@ -25,13 +25,13 @@ class ParameterValue:
     name: str
         Parameter name.
 
-    best: float
+    median: float
         Median.
 
-    upper: float
+    upper_95: float
         95th percentile minus median.
 
-    lower: float
+    lower_05: float
         5th percentile minus median.
 
     upper_limit, lower_limit: bool
@@ -66,10 +66,18 @@ class Link:
 
 
 @dataclasses.dataclass
+class SearchResult:
+    """Summary of the significance obtained by a search pipeline."""
+    pipeline: str
+    pastro: float
+    far: float  # (1/yr)
+
+
+@dataclasses.dataclass
 class ParameterSet:
     """Summary of a single parameter-estimation run."""
     name: str
-    type: str
+    kind: str
     data_url: str
     waveform_family: str
     parameters: list[ParameterValue]
@@ -77,9 +85,9 @@ class ParameterSet:
 
     @classmethod
     def from_samples(cls,
-                     samples: pd.DataFrame
+                     samples: pd.DataFrame,
                      name,
-                     type,  # FIXME: Conflicts with Python built-in `type`.
+                     kind,
                      data_url,
                      waveform_family,
                      links=None):
@@ -89,7 +97,7 @@ class ParameterSet:
         parameters = [ParameterValue.from_series(*item)
                       for item in samples.items()]
         return cls(name=name,
-                   type=type,
+                   kind=kind,
                    data_url=data_url,
                    waveform_family=waveform_family,
                    parameters=parameters,
@@ -103,6 +111,7 @@ class Event:
     name: str
     gps: float
     detectors: list[str]
+    search: list[SearchResult]
     pe_sets: list[ParameterSet]
     description: str = None
 
