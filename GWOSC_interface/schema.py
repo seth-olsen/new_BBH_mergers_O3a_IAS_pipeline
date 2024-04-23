@@ -3,6 +3,7 @@ Dataclasses for organizing a catalog of parameter estimation results in
 a format compatible with the Gravitational Wave Open Science Center.
 """
 import dataclasses
+import json
 import numpy as np
 import pandas as pd
 
@@ -135,6 +136,11 @@ class Catalog:
     description: str
     doi: str
     events: list[Event]
+
+    def to_json(self, filename):
+        """Write catalog to JSON file."""
+        with open(filename, 'w', encoding='utf-8') as file:
+            json.dump(dataclasses.asdict(self), file, indent=2)
 
 
 def _condition_value_and_error(value, error) -> dict:
