@@ -107,8 +107,8 @@ _NAMING_MAP = {
     'z': 'redshift',}
 
 
-def make_event(eventname, event_description=None, priors=None,
-               keys=KEYS):
+def make_event(eventname, event_description="", priors=None,
+               keys=KEYS, preferred_prior='IASPrior'):
     """Return ``schema.Event`` with IAS event."""
     if priors is None:
         priordirs = PRIORDIRS
@@ -118,7 +118,7 @@ def make_event(eventname, event_description=None, priors=None,
     pe_sets = []
     for priordir in priordirs:
         link = schema.Link(
-            url=f'{REPO_URL}/{priordir.name}',
+            url=REPO_URL,
             content_type='posterior_samples',
             description='GitHub repository with samples for this PE run.')
 
@@ -129,9 +129,10 @@ def make_event(eventname, event_description=None, priors=None,
         parameter_set = schema.ParameterSet.from_samples(
             samples=samples[list(keys)],
             pe_set_name=priordir.name,
-            data_url=REPO_URL,
+            data_url=f'{REPO_URL}/{priordir.name}/{eventname}_posterior_samples.feather',
             waveform_family=WAVEFORM_FAMILY,
-            links=[link]
+            links=[link],
+            is_preferred=(priordir.name == preferred_prior)
             )
         pe_sets.append(parameter_set)
 
@@ -145,15 +146,13 @@ def make_event(eventname, event_description=None, priors=None,
     search_results = [
         schema.SearchResult(
             pipeline_name=PIPELINE_NAME,
-            search_statistics=[
-                schema.ParameterValue(parameter_name='pastro',
-                                      median=pastro,
-                                      sigfigs=2),
-                schema.ParameterValue(parameter_name='far',
-                                      median=far,
-                                      sigfigs=2,
-                                      unit='1/year')
-            ])]
+            parameters=[schema.ParameterValue(parameter_name='pastro',
+                                              median=pastro,
+                                              decimal_places=2),
+                        schema.ParameterValue(parameter_name='far',
+                                              median=far,
+                                              decimal_places=2,
+                                              unit='1/year')])]
     return schema.Event(event_name=eventname,
                         gps=gps,
                         detectors=detectors,

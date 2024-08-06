@@ -15,25 +15,25 @@
       "search": [
         {
           "pipeline_name": "IAS",
-          "search_statistics": [
+          "parameters": [
             {
               "parameter_name": "pastro",
+              "decimal_places": 2,
               "median": 0.81,
               "upper_95": null,
               "lower_05": null,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             },
             {
               "parameter_name": "far",
+              "decimal_places": 2,
               "median": 0.35,
               "upper_95": null,
               "lower_05": null,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "1/year"
             }
           ]
@@ -42,93 +42,94 @@
       "pe_sets": [
         {
           "pe_set_name": "IASPrior",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPrior/GW190704_104834_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 2,
               "median": 4.16,
               "upper_95": 0.11,
               "lower_05": -0.14,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 2,
               "median": 4.56,
               "upper_95": 0.03,
               "lower_05": -0.02,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 0,
               "median": 7,
               "upper_95": 6,
               "lower_05": -2,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 1,
               "median": 3.2,
               "upper_95": 1.2,
               "lower_05": -1.1,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 1,
               "median": 11.6,
               "upper_95": 4.4,
               "lower_05": -1.1,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 2,
               "median": 0.2,
               "upper_95": 0.26,
               "lower_05": -0.13,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 460,
               "upper_95": 190,
               "lower_05": -140,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 2,
               "median": 0.1,
               "upper_95": 0.03,
               "lower_05": -0.03,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": null
             }
           ],
+          "is_preferred": true,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPrior",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
@@ -136,93 +137,94 @@
         },
         {
           "pe_set_name": "IASPriorComovingVT",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPriorComovingVT/GW190704_104834_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 2,
               "median": 4.16,
               "upper_95": 0.12,
               "lower_05": -0.13,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 2,
               "median": 4.56,
               "upper_95": 0.03,
               "lower_05": -0.03,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 0,
               "median": 7,
               "upper_95": 6,
               "lower_05": -2,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 1,
               "median": 3.2,
               "upper_95": 1.2,
               "lower_05": -1.1,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 1,
               "median": 11.6,
               "upper_95": 4.7,
               "lower_05": -1.1,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 2,
               "median": 0.2,
               "upper_95": 0.27,
               "lower_05": -0.14,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 450,
               "upper_95": 180,
               "lower_05": -140,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 2,
               "median": 0.1,
               "upper_95": 0.03,
               "lower_05": -0.03,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": null
             }
           ],
+          "is_preferred": false,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPriorComovingVT",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
@@ -230,93 +232,94 @@
         },
         {
           "pe_set_name": "LVCPrior",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPrior/GW190704_104834_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 2,
               "median": 4.14,
               "upper_95": 0.12,
               "lower_05": -0.13,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 3,
               "median": 4.552,
               "upper_95": 0.017,
               "lower_05": -0.022,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 4,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 1,
               "median": 5.9,
               "upper_95": 2.6,
               "lower_05": -1.0,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 1,
               "median": 3.9,
               "upper_95": 0.7,
               "lower_05": -1.1,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 1,
               "median": 10.7,
               "upper_95": 1.7,
               "lower_05": -0.3,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 2,
               "median": 0.12,
               "upper_95": 0.16,
               "lower_05": -0.07,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 470,
               "upper_95": 180,
               "lower_05": -150,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 2,
               "median": 0.1,
               "upper_95": 0.03,
               "lower_05": -0.03,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": null
             }
           ],
+          "is_preferred": false,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPrior",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
@@ -324,100 +327,101 @@
         },
         {
           "pe_set_name": "LVCPriorComovingVT",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPriorComovingVT/GW190704_104834_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 2,
               "median": 4.15,
               "upper_95": 0.12,
               "lower_05": -0.13,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 3,
               "median": 4.552,
               "upper_95": 0.017,
               "lower_05": -0.022,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 4,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 1,
               "median": 5.9,
               "upper_95": 2.5,
               "lower_05": -1.0,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 1,
               "median": 3.9,
               "upper_95": 0.7,
               "lower_05": -1.0,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 1,
               "median": 10.7,
               "upper_95": 1.7,
               "lower_05": -0.3,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 2,
               "median": 0.12,
               "upper_95": 0.15,
               "lower_05": -0.07,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 460,
               "upper_95": 170,
               "lower_05": -150,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 2,
               "median": 0.1,
               "upper_95": 0.03,
               "lower_05": -0.03,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": null
             }
           ],
+          "is_preferred": false,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPriorComovingVT",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
           ]
         }
       ],
-      "event_description": null
+      "event_description": ""
     },
     {
       "event_name": "GW190707_083226",
@@ -429,25 +433,25 @@
       "search": [
         {
           "pipeline_name": "IAS",
-          "search_statistics": [
+          "parameters": [
             {
               "parameter_name": "pastro",
+              "decimal_places": 2,
               "median": 0.94,
               "upper_95": null,
               "lower_05": null,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             },
             {
               "parameter_name": "far",
+              "decimal_places": 2,
               "median": 0.043,
               "upper_95": null,
               "lower_05": null,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "1/year"
             }
           ]
@@ -456,93 +460,94 @@
       "pe_sets": [
         {
           "pe_set_name": "IASPrior",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPrior/GW190707_083226_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 0,
               "median": 34,
               "upper_95": 7,
               "lower_05": -6,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 0,
               "median": 62,
               "upper_95": 13,
               "lower_05": -14,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 0,
               "median": 48,
               "upper_95": 16,
               "lower_05": -10,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 0,
               "median": 32,
               "upper_95": 10,
               "lower_05": -9,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 0,
               "median": 150,
               "upper_95": 30,
               "lower_05": -30,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 1,
               "median": -0.1,
               "upper_95": 0.4,
               "lower_05": -0.6,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 0,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 5000,
               "upper_95": 3000,
               "lower_05": -2000,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 1,
               "median": 0.8,
               "upper_95": 0.4,
               "lower_05": -0.3,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": null
             }
           ],
+          "is_preferred": true,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPrior",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
@@ -550,93 +555,94 @@
         },
         {
           "pe_set_name": "IASPriorComovingVT",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPriorComovingVT/GW190707_083226_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 0,
               "median": 35,
               "upper_95": 8,
               "lower_05": -6,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 0,
               "median": 57,
               "upper_95": 14,
               "lower_05": -14,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 0,
               "median": 52,
               "upper_95": 17,
               "lower_05": -12,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 0,
               "median": 32,
               "upper_95": 12,
               "lower_05": -11,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 0,
               "median": 140,
               "upper_95": 30,
               "lower_05": -30,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 1,
               "median": -0.2,
               "upper_95": 0.5,
               "lower_05": -0.6,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 3800,
               "upper_95": 2800,
               "lower_05": -1900,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 1,
               "median": 0.6,
               "upper_95": 0.4,
               "lower_05": -0.3,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": null
             }
           ],
+          "is_preferred": false,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPriorComovingVT",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
@@ -644,93 +650,94 @@
         },
         {
           "pe_set_name": "LVCPrior",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPrior/GW190707_083226_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 0,
               "median": 34,
               "upper_95": 7,
               "lower_05": -5,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 0,
               "median": 61,
               "upper_95": 11,
               "lower_05": -11,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 0,
               "median": 50,
               "upper_95": 16,
               "lower_05": -11,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 0,
               "median": 32,
               "upper_95": 10,
               "lower_05": -10,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 0,
               "median": 145,
               "upper_95": 24,
               "lower_05": -19,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 1,
               "median": -0.0,
               "upper_95": 0.2,
               "lower_05": -0.3,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": -1,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 5000,
               "upper_95": 3000,
               "lower_05": -2000,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 1,
               "median": 0.8,
               "upper_95": 0.3,
               "lower_05": -0.3,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": null
             }
           ],
+          "is_preferred": false,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPrior",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
@@ -738,100 +745,101 @@
         },
         {
           "pe_set_name": "LVCPriorComovingVT",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPriorComovingVT/GW190707_083226_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 0,
               "median": 35,
               "upper_95": 8,
               "lower_05": -6,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 0,
               "median": 58,
               "upper_95": 12,
               "lower_05": -11,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 0,
               "median": 55,
               "upper_95": 18,
               "lower_05": -14,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 0,
               "median": 31,
               "upper_95": 13,
               "lower_05": -10,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 0,
               "median": 141,
               "upper_95": 23,
               "lower_05": -19,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 1,
               "median": -0.0,
               "upper_95": 0.2,
               "lower_05": -0.3,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 0,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 3800,
               "upper_95": 2700,
               "lower_05": -1900,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 1,
               "median": 0.6,
               "upper_95": 0.4,
               "lower_05": -0.2,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": null
             }
           ],
+          "is_preferred": false,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPriorComovingVT",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
           ]
         }
       ],
-      "event_description": null
+      "event_description": ""
     },
     {
       "event_name": "GW190711_030756",
@@ -843,25 +851,25 @@
       "search": [
         {
           "pipeline_name": "IAS",
-          "search_statistics": [
+          "parameters": [
             {
               "parameter_name": "pastro",
+              "decimal_places": 2,
               "median": 0.93,
               "upper_95": null,
               "lower_05": null,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             },
             {
               "parameter_name": "far",
+              "decimal_places": 2,
               "median": 0.09,
               "upper_95": null,
               "lower_05": null,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "1/year"
             }
           ]
@@ -870,93 +878,94 @@
       "pe_sets": [
         {
           "pe_set_name": "IASPrior",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPrior/GW190711_030756_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 0,
               "median": 30,
               "upper_95": 6,
               "lower_05": -5,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 0,
               "median": 45,
               "upper_95": 11,
               "lower_05": -9,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 0,
               "median": 70,
               "upper_95": 50,
               "lower_05": -30,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 0,
               "median": 19,
               "upper_95": 11,
               "lower_05": -7,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 0,
               "median": 140,
               "upper_95": 60,
               "lower_05": -40,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 1,
               "median": 0.2,
               "upper_95": 0.3,
               "lower_05": -0.6,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 2800,
               "upper_95": 2100,
               "lower_05": -1200,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 2,
               "median": 0.48,
               "upper_95": 0.29,
               "lower_05": -0.18,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             }
           ],
+          "is_preferred": true,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPrior",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
@@ -964,93 +973,94 @@
         },
         {
           "pe_set_name": "IASPriorComovingVT",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPriorComovingVT/GW190711_030756_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 0,
               "median": 31,
               "upper_95": 6,
               "lower_05": -6,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 0,
               "median": 44,
               "upper_95": 10,
               "lower_05": -10,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 0,
               "median": 80,
               "upper_95": 50,
               "lower_05": -40,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 0,
               "median": 18,
               "upper_95": 11,
               "lower_05": -7,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 0,
               "median": 140,
               "upper_95": 60,
               "lower_05": -50,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 1,
               "median": 0.2,
               "upper_95": 0.3,
               "lower_05": -0.7,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 2300,
               "upper_95": 1700,
               "lower_05": -1000,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 2,
               "median": 0.41,
               "upper_95": 0.24,
               "lower_05": -0.15,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             }
           ],
+          "is_preferred": false,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPriorComovingVT",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
@@ -1058,93 +1068,94 @@
         },
         {
           "pe_set_name": "LVCPrior",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPrior/GW190711_030756_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 0,
               "median": 29,
               "upper_95": 5,
               "lower_05": -4,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 0,
               "median": 44,
               "upper_95": 6,
               "lower_05": -8,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 0,
               "median": 57,
               "upper_95": 37,
               "lower_05": -18,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 0,
               "median": 21,
               "upper_95": 9,
               "lower_05": -7,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 0,
               "median": 116,
               "upper_95": 42,
               "lower_05": -15,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 1,
               "median": 0.0,
               "upper_95": 0.3,
               "lower_05": -0.2,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 0,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 2700,
               "upper_95": 2000,
               "lower_05": -1100,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 2,
               "median": 0.47,
               "upper_95": 0.27,
               "lower_05": -0.17,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             }
           ],
+          "is_preferred": false,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPrior",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
@@ -1152,100 +1163,101 @@
         },
         {
           "pe_set_name": "LVCPriorComovingVT",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPriorComovingVT/GW190711_030756_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 0,
               "median": 30,
               "upper_95": 5,
               "lower_05": -5,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 0,
               "median": 43,
               "upper_95": 6,
               "lower_05": -8,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 0,
               "median": 61,
               "upper_95": 38,
               "lower_05": -18,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 0,
               "median": 21,
               "upper_95": 9,
               "lower_05": -8,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 0,
               "median": 115,
               "upper_95": 43,
               "lower_05": -15,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 1,
               "median": 0.0,
               "upper_95": 0.3,
               "lower_05": -0.2,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 0,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 2300,
               "upper_95": 1600,
               "lower_05": -1000,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 2,
               "median": 0.41,
               "upper_95": 0.22,
               "lower_05": -0.16,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             }
           ],
+          "is_preferred": false,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPriorComovingVT",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
           ]
         }
       ],
-      "event_description": null
+      "event_description": ""
     },
     {
       "event_name": "GW190718_160159",
@@ -1258,25 +1270,25 @@
       "search": [
         {
           "pipeline_name": "IAS",
-          "search_statistics": [
+          "parameters": [
             {
               "parameter_name": "pastro",
+              "decimal_places": 2,
               "median": 0.53,
               "upper_95": null,
               "lower_05": null,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             },
             {
               "parameter_name": "far",
+              "decimal_places": 2,
               "median": 2.1,
               "upper_95": null,
               "lower_05": null,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "1/year"
             }
           ]
@@ -1285,93 +1297,94 @@
       "pe_sets": [
         {
           "pe_set_name": "IASPrior",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPrior/GW190718_160159_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 1,
               "median": 7.0,
               "upper_95": 0.6,
               "lower_05": -0.5,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 2,
               "median": 9.15,
               "upper_95": 0.13,
               "lower_05": -0.21,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 1,
               "median": 10.0,
               "upper_95": 4.5,
               "lower_05": -1.8,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 1,
               "median": 6.6,
               "upper_95": 1.4,
               "lower_05": -2.0,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 1,
               "median": 21.5,
               "upper_95": 3.7,
               "lower_05": -0.7,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 2,
               "median": 0.72,
               "upper_95": 0.11,
               "lower_05": -0.18,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 1600,
               "upper_95": 600,
               "lower_05": -600,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 2,
               "median": 0.3,
               "upper_95": 0.1,
               "lower_05": -0.1,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             }
           ],
+          "is_preferred": true,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPrior",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
@@ -1379,93 +1392,94 @@
         },
         {
           "pe_set_name": "IASPriorComovingVT",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPriorComovingVT/GW190718_160159_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 1,
               "median": 7.1,
               "upper_95": 0.6,
               "lower_05": -0.5,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 2,
               "median": 9.15,
               "upper_95": 0.13,
               "lower_05": -0.2,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 1,
               "median": 10.0,
               "upper_95": 4.5,
               "lower_05": -1.7,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 1,
               "median": 6.8,
               "upper_95": 1.4,
               "lower_05": -2.1,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 1,
               "median": 21.5,
               "upper_95": 3.6,
               "lower_05": -0.7,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 2,
               "median": 0.73,
               "upper_95": 0.1,
               "lower_05": -0.17,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 1500,
               "upper_95": 600,
               "lower_05": -500,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 2,
               "median": 0.28,
               "upper_95": 0.1,
               "lower_05": -0.09,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             }
           ],
+          "is_preferred": false,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPriorComovingVT",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
@@ -1473,93 +1487,94 @@
         },
         {
           "pe_set_name": "LVCPrior",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPrior/GW190718_160159_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 1,
               "median": 6.9,
               "upper_95": 0.5,
               "lower_05": -0.4,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 2,
               "median": 8.99,
               "upper_95": 0.19,
               "lower_05": -0.18,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 1,
               "median": 10.0,
               "upper_95": 3.5,
               "lower_05": -1.7,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 1,
               "median": 6.5,
               "upper_95": 1.3,
               "lower_05": -1.8,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 1,
               "median": 21.3,
               "upper_95": 2.8,
               "lower_05": -0.9,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 2,
               "median": 0.61,
               "upper_95": 0.14,
               "lower_05": -0.17,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 1600,
               "upper_95": 600,
               "lower_05": -600,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 2,
               "median": 0.3,
               "upper_95": 0.09,
               "lower_05": -0.09,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             }
           ],
+          "is_preferred": false,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPrior",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
@@ -1567,100 +1582,101 @@
         },
         {
           "pe_set_name": "LVCPriorComovingVT",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPriorComovingVT/GW190718_160159_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 1,
               "median": 7.0,
               "upper_95": 0.5,
               "lower_05": -0.5,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 2,
               "median": 8.97,
               "upper_95": 0.2,
               "lower_05": -0.16,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 1,
               "median": 10.4,
               "upper_95": 4.9,
               "lower_05": -1.9,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 1,
               "median": 6.3,
               "upper_95": 1.6,
               "lower_05": -2.0,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 1,
               "median": 21.4,
               "upper_95": 4.4,
               "lower_05": -0.9,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 2,
               "median": 0.59,
               "upper_95": 0.15,
               "lower_05": -0.15,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 1500,
               "upper_95": 600,
               "lower_05": -500,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 2,
               "median": 0.29,
               "upper_95": 0.09,
               "lower_05": -0.09,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             }
           ],
+          "is_preferred": false,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPriorComovingVT",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
           ]
         }
       ],
-      "event_description": null
+      "event_description": ""
     },
     {
       "event_name": "GW190814_192009",
@@ -1672,25 +1688,25 @@
       "search": [
         {
           "pipeline_name": "IAS",
-          "search_statistics": [
+          "parameters": [
             {
               "parameter_name": "pastro",
+              "decimal_places": 2,
               "median": 0.64,
               "upper_95": null,
               "lower_05": null,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             },
             {
               "parameter_name": "far",
+              "decimal_places": 2,
               "median": 1.5,
               "upper_95": null,
               "lower_05": null,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "1/year"
             }
           ]
@@ -1699,93 +1715,94 @@
       "pe_sets": [
         {
           "pe_set_name": "IASPrior",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPrior/GW190814_192009_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 0,
               "median": 42,
               "upper_95": 13,
               "lower_05": -11,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 0,
               "median": 130,
               "upper_95": 20,
               "lower_05": -30,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 0,
               "median": 58,
               "upper_95": 21,
               "lower_05": -16,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 0,
               "median": 41,
               "upper_95": 15,
               "lower_05": -14,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 0,
               "median": 310,
               "upper_95": 50,
               "lower_05": -60,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 1,
               "median": 0.7,
               "upper_95": 0.2,
               "lower_05": -0.5,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 17000,
               "upper_95": 12000,
               "lower_05": -8000,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 1,
               "median": 2.1,
               "upper_95": 1.1,
               "lower_05": -0.8,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             }
           ],
+          "is_preferred": true,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPrior",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
@@ -1793,93 +1810,94 @@
         },
         {
           "pe_set_name": "IASPriorComovingVT",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPriorComovingVT/GW190814_192009_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 0,
               "median": 49,
               "upper_95": 18,
               "lower_05": -13,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 0,
               "median": 120,
               "upper_95": 30,
               "lower_05": -30,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 0,
               "median": 68,
               "upper_95": 28,
               "lower_05": -18,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 0,
               "median": 48,
               "upper_95": 21,
               "lower_05": -18,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 0,
               "median": 290,
               "upper_95": 50,
               "lower_05": -70,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 1,
               "median": 0.5,
               "upper_95": 0.4,
               "lower_05": -0.6,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 11000,
               "upper_95": 8000,
               "lower_05": -6000,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 1,
               "median": 1.5,
               "upper_95": 0.8,
               "lower_05": -0.7,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             }
           ],
+          "is_preferred": false,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPriorComovingVT",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
@@ -1887,93 +1905,94 @@
         },
         {
           "pe_set_name": "LVCPrior",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPrior/GW190814_192009_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 0,
               "median": 42,
               "upper_95": 11,
               "lower_05": -11,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 0,
               "median": 111,
               "upper_95": 19,
               "lower_05": -21,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 0,
               "median": 58,
               "upper_95": 21,
               "lower_05": -15,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 0,
               "median": 41,
               "upper_95": 14,
               "lower_05": -15,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 0,
               "median": 260,
               "upper_95": 40,
               "lower_05": -40,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 1,
               "median": 0.2,
               "upper_95": 0.4,
               "lower_05": -0.3,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 12000,
               "upper_95": 8000,
               "lower_05": -5000,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 1,
               "median": 1.6,
               "upper_95": 0.9,
               "lower_05": -0.6,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             }
           ],
+          "is_preferred": false,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPrior",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
@@ -1981,100 +2000,101 @@
         },
         {
           "pe_set_name": "LVCPriorComovingVT",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPriorComovingVT/GW190814_192009_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 0,
               "median": 47,
               "upper_95": 16,
               "lower_05": -11,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 0,
               "median": 107,
               "upper_95": 18,
               "lower_05": -24,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 0,
               "median": 67,
               "upper_95": 26,
               "lower_05": -18,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 0,
               "median": 45,
               "upper_95": 20,
               "lower_05": -17,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 0,
               "median": 250,
               "upper_95": 40,
               "lower_05": -40,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 1,
               "median": 0.2,
               "upper_95": 0.3,
               "lower_05": -0.4,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 9000,
               "upper_95": 6000,
               "lower_05": -5000,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 1,
               "median": 1.2,
               "upper_95": 0.7,
               "lower_05": -0.5,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             }
           ],
+          "is_preferred": false,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPriorComovingVT",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
           ]
         }
       ],
-      "event_description": null
+      "event_description": ""
     },
     {
       "event_name": "GW190818_232544",
@@ -2087,25 +2107,25 @@
       "search": [
         {
           "pipeline_name": "IAS",
-          "search_statistics": [
+          "parameters": [
             {
               "parameter_name": "pastro",
+              "decimal_places": 2,
               "median": 0.81,
               "upper_95": null,
               "lower_05": null,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             },
             {
               "parameter_name": "far",
+              "decimal_places": 2,
               "median": 0.29,
               "upper_95": null,
               "lower_05": null,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "1/year"
             }
           ]
@@ -2114,93 +2134,94 @@
       "pe_sets": [
         {
           "pe_set_name": "IASPrior",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPrior/GW190818_232544_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 0,
               "median": 39,
               "upper_95": 10,
               "lower_05": -8,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 0,
               "median": 92,
               "upper_95": 15,
               "lower_05": -17,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 0,
               "median": 57,
               "upper_95": 22,
               "lower_05": -15,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 0,
               "median": 37,
               "upper_95": 13,
               "lower_05": -11,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 0,
               "median": 220,
               "upper_95": 30,
               "lower_05": -30,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 2,
               "median": 0.76,
               "upper_95": 0.19,
               "lower_05": -0.27,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 9000,
               "upper_95": 8000,
               "lower_05": -4000,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 1,
               "median": 1.3,
               "upper_95": 0.8,
               "lower_05": -0.5,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             }
           ],
+          "is_preferred": true,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPrior",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
@@ -2208,93 +2229,94 @@
         },
         {
           "pe_set_name": "IASPriorComovingVT",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPriorComovingVT/GW190818_232544_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 0,
               "median": 43,
               "upper_95": 11,
               "lower_05": -9,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 0,
               "median": 87,
               "upper_95": 15,
               "lower_05": -21,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 0,
               "median": 67,
               "upper_95": 23,
               "lower_05": -19,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 0,
               "median": 38,
               "upper_95": 17,
               "lower_05": -15,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 0,
               "median": 210,
               "upper_95": 30,
               "lower_05": -30,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 1,
               "median": 0.7,
               "upper_95": 0.2,
               "lower_05": -0.3,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 6000,
               "upper_95": 6000,
               "lower_05": -2000,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 1,
               "median": 1.0,
               "upper_95": 0.6,
               "lower_05": -0.4,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": null
             }
           ],
+          "is_preferred": false,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPriorComovingVT",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
@@ -2302,93 +2324,94 @@
         },
         {
           "pe_set_name": "LVCPrior",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPrior/GW190818_232544_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 0,
               "median": 39,
               "upper_95": 9,
               "lower_05": -8,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 0,
               "median": 80,
               "upper_95": 15,
               "lower_05": -19,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 0,
               "median": 60,
               "upper_95": 30,
               "lower_05": -20,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 0,
               "median": 32,
               "upper_95": 14,
               "lower_05": -11,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 0,
               "median": 200,
               "upper_95": 30,
               "lower_05": -30,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 2,
               "median": 0.5,
               "upper_95": 0.2,
               "lower_05": -0.36,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 7000,
               "upper_95": 5000,
               "lower_05": -3000,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 1,
               "median": 1.0,
               "upper_95": 0.6,
               "lower_05": -0.4,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             }
           ],
+          "is_preferred": false,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPrior",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
@@ -2396,100 +2419,101 @@
         },
         {
           "pe_set_name": "LVCPriorComovingVT",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPriorComovingVT/GW190818_232544_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 0,
               "median": 40,
               "upper_95": 10,
               "lower_05": -9,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 0,
               "median": 74,
               "upper_95": 17,
               "lower_05": -21,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 0,
               "median": 80,
               "upper_95": 20,
               "lower_05": -30,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 0,
               "median": 31,
               "upper_95": 17,
               "lower_05": -13,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 0,
               "median": 190,
               "upper_95": 30,
               "lower_05": -30,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 2,
               "median": 0.47,
               "upper_95": 0.2,
               "lower_05": -0.37,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 5000,
               "upper_95": 4000,
               "lower_05": -2000,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 1,
               "median": 0.8,
               "upper_95": 0.5,
               "lower_05": -0.3,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": null
             }
           ],
+          "is_preferred": false,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPriorComovingVT",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
           ]
         }
       ],
-      "event_description": null
+      "event_description": ""
     },
     {
       "event_name": "GW190821_124821",
@@ -2502,25 +2526,25 @@
       "search": [
         {
           "pipeline_name": "IAS",
-          "search_statistics": [
+          "parameters": [
             {
               "parameter_name": "pastro",
+              "decimal_places": 2,
               "median": 0.6,
               "upper_95": null,
               "lower_05": null,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             },
             {
               "parameter_name": "far",
+              "decimal_places": 2,
               "median": 1.4,
               "upper_95": null,
               "lower_05": null,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "1/year"
             }
           ]
@@ -2529,93 +2553,94 @@
       "pe_sets": [
         {
           "pe_set_name": "IASPrior",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPrior/GW190821_124821_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 1,
               "median": 4.8,
               "upper_95": 0.2,
               "lower_05": -0.3,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 2,
               "median": 5.58,
               "upper_95": 0.04,
               "lower_05": -0.04,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 1,
               "median": 7.5,
               "upper_95": 3.9,
               "lower_05": -1.6,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 1,
               "median": 4.0,
               "upper_95": 1.0,
               "lower_05": -1.1,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 1,
               "median": 13.6,
               "upper_95": 3.0,
               "lower_05": -0.7,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 2,
               "median": -0.45,
               "upper_95": 0.32,
               "lower_05": -0.17,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 900,
               "upper_95": 300,
               "lower_05": -300,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 2,
               "median": 0.17,
               "upper_95": 0.07,
               "lower_05": -0.05,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             }
           ],
+          "is_preferred": true,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPrior",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
@@ -2623,93 +2648,94 @@
         },
         {
           "pe_set_name": "IASPriorComovingVT",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPriorComovingVT/GW190821_124821_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 1,
               "median": 4.8,
               "upper_95": 0.2,
               "lower_05": -0.3,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 2,
               "median": 5.58,
               "upper_95": 0.04,
               "lower_05": -0.04,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 1,
               "median": 7.6,
               "upper_95": 3.9,
               "lower_05": -1.7,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 1,
               "median": 4.0,
               "upper_95": 1.0,
               "lower_05": -1.1,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 1,
               "median": 13.6,
               "upper_95": 3.1,
               "lower_05": -0.7,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 2,
               "median": -0.45,
               "upper_95": 0.33,
               "lower_05": -0.17,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 800,
               "upper_95": 400,
               "lower_05": -300,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 2,
               "median": 0.17,
               "upper_95": 0.06,
               "lower_05": -0.06,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             }
           ],
+          "is_preferred": false,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPriorComovingVT",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
@@ -2717,93 +2743,94 @@
         },
         {
           "pe_set_name": "LVCPrior",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPrior/GW190821_124821_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 1,
               "median": 4.8,
               "upper_95": 0.2,
               "lower_05": -0.3,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 2,
               "median": 5.6,
               "upper_95": 0.04,
               "lower_05": -0.04,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 0,
               "median": 12,
               "upper_95": 3,
               "lower_05": -3,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 1,
               "median": 2.8,
               "upper_95": 0.9,
               "lower_05": -0.5,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 0,
               "median": 17,
               "upper_95": 3,
               "lower_05": -3,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 2,
               "median": -0.06,
               "upper_95": 0.14,
               "lower_05": -0.29,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 900,
               "upper_95": 300,
               "lower_05": -300,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 2,
               "median": 0.17,
               "upper_95": 0.07,
               "lower_05": -0.05,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             }
           ],
+          "is_preferred": false,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPrior",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
@@ -2811,100 +2838,101 @@
         },
         {
           "pe_set_name": "LVCPriorComovingVT",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPriorComovingVT/GW190821_124821_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 1,
               "median": 4.8,
               "upper_95": 0.3,
               "lower_05": -0.3,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 2,
               "median": 5.6,
               "upper_95": 0.04,
               "lower_05": -0.04,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 0,
               "median": 12,
               "upper_95": 3,
               "lower_05": -3,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 1,
               "median": 2.8,
               "upper_95": 0.9,
               "lower_05": -0.5,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 0,
               "median": 17,
               "upper_95": 3,
               "lower_05": -3,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 2,
               "median": -0.06,
               "upper_95": 0.15,
               "lower_05": -0.3,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 800,
               "upper_95": 400,
               "lower_05": -300,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 2,
               "median": 0.17,
               "upper_95": 0.06,
               "lower_05": -0.06,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             }
           ],
+          "is_preferred": false,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPriorComovingVT",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
           ]
         }
       ],
-      "event_description": null
+      "event_description": ""
     },
     {
       "event_name": "GW190906_054335",
@@ -2917,25 +2945,25 @@
       "search": [
         {
           "pipeline_name": "IAS",
-          "search_statistics": [
+          "parameters": [
             {
               "parameter_name": "pastro",
+              "decimal_places": 2,
               "median": 0.61,
               "upper_95": null,
               "lower_05": null,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             },
             {
               "parameter_name": "far",
+              "decimal_places": 2,
               "median": 1.4,
               "upper_95": null,
               "lower_05": null,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "1/year"
             }
           ]
@@ -2944,93 +2972,94 @@
       "pe_sets": [
         {
           "pe_set_name": "IASPrior",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPrior/GW190906_054335_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 0,
               "median": 25,
               "upper_95": 5,
               "lower_05": -5,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 0,
               "median": 52,
               "upper_95": 9,
               "lower_05": -10,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 0,
               "median": 34,
               "upper_95": 12,
               "lower_05": -7,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 0,
               "median": 24,
               "upper_95": 6,
               "lower_05": -7,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 0,
               "median": 122,
               "upper_95": 22,
               "lower_05": -20,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 1,
               "median": 0.2,
               "upper_95": 0.3,
               "lower_05": -0.5,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 7000,
               "upper_95": 5000,
               "lower_05": -3000,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 1,
               "median": 1.1,
               "upper_95": 0.5,
               "lower_05": -0.4,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             }
           ],
+          "is_preferred": true,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPrior",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
@@ -3038,93 +3067,94 @@
         },
         {
           "pe_set_name": "IASPriorComovingVT",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPriorComovingVT/GW190906_054335_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 0,
               "median": 26,
               "upper_95": 5,
               "lower_05": -5,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 0,
               "median": 49,
               "upper_95": 9,
               "lower_05": -12,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 0,
               "median": 37,
               "upper_95": 12,
               "lower_05": -8,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 0,
               "median": 24,
               "upper_95": 8,
               "lower_05": -8,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 0,
               "median": 117,
               "upper_95": 20,
               "lower_05": -22,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 1,
               "median": 0.1,
               "upper_95": 0.4,
               "lower_05": -0.5,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 0,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 6000,
               "upper_95": 3000,
               "lower_05": -3000,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 1,
               "median": 0.9,
               "upper_95": 0.4,
               "lower_05": -0.3,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": null
             }
           ],
+          "is_preferred": false,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPriorComovingVT",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
@@ -3132,93 +3162,94 @@
         },
         {
           "pe_set_name": "LVCPrior",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPrior/GW190906_054335_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 0,
               "median": 24,
               "upper_95": 5,
               "lower_05": -4,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 0,
               "median": 49,
               "upper_95": 8,
               "lower_05": -9,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 0,
               "median": 34,
               "upper_95": 10,
               "lower_05": -7,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 0,
               "median": 24,
               "upper_95": 6,
               "lower_05": -7,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 0,
               "median": 116,
               "upper_95": 19,
               "lower_05": -17,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 1,
               "median": 0.1,
               "upper_95": 0.2,
               "lower_05": -0.3,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 0,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 7000,
               "upper_95": 4000,
               "lower_05": -3000,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 1,
               "median": 1.0,
               "upper_95": 0.4,
               "lower_05": -0.3,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             }
           ],
+          "is_preferred": false,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPrior",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
@@ -3226,100 +3257,101 @@
         },
         {
           "pe_set_name": "LVCPriorComovingVT",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPriorComovingVT/GW190906_054335_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 0,
               "median": 25,
               "upper_95": 6,
               "lower_05": -5,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 0,
               "median": 48,
               "upper_95": 7,
               "lower_05": -13,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 0,
               "median": 37,
               "upper_95": 11,
               "lower_05": -8,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 0,
               "median": 24,
               "upper_95": 8,
               "lower_05": -10,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 0,
               "median": 113,
               "upper_95": 16,
               "lower_05": -20,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 1,
               "median": 0.0,
               "upper_95": 0.3,
               "lower_05": -0.2,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 0,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 5000,
               "upper_95": 4000,
               "lower_05": -2000,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 1,
               "median": 0.8,
               "upper_95": 0.4,
               "lower_05": -0.3,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": null
             }
           ],
+          "is_preferred": false,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPriorComovingVT",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
           ]
         }
       ],
-      "event_description": null
+      "event_description": ""
     },
     {
       "event_name": "GW190910_012619",
@@ -3332,25 +3364,25 @@
       "search": [
         {
           "pipeline_name": "IAS",
-          "search_statistics": [
+          "parameters": [
             {
               "parameter_name": "pastro",
+              "decimal_places": 2,
               "median": 0.58,
               "upper_95": null,
               "lower_05": null,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             },
             {
               "parameter_name": "far",
+              "decimal_places": 2,
               "median": 1.5,
               "upper_95": null,
               "lower_05": null,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "1/year"
             }
           ]
@@ -3359,93 +3391,94 @@
       "pe_sets": [
         {
           "pe_set_name": "IASPrior",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPrior/GW190910_012619_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 1,
               "median": 7.6,
               "upper_95": 0.4,
               "lower_05": -0.3,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 1,
               "median": 8.9,
               "upper_95": 0.3,
               "lower_05": -0.4,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 0,
               "median": 34,
               "upper_95": 3,
               "lower_05": -3,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 1,
               "median": 2.9,
               "upper_95": 0.3,
               "lower_05": -0.2,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 1,
               "median": 42.3,
               "upper_95": 3.2,
               "lower_05": -1.7,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 2,
               "median": -0.87,
               "upper_95": 0.19,
               "lower_05": -0.11,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 790,
               "upper_95": 260,
               "lower_05": -180,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 2,
               "median": 0.16,
               "upper_95": 0.05,
               "lower_05": -0.03,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             }
           ],
+          "is_preferred": true,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPrior",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
@@ -3453,93 +3486,94 @@
         },
         {
           "pe_set_name": "IASPriorComovingVT",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPriorComovingVT/GW190910_012619_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 1,
               "median": 7.7,
               "upper_95": 0.3,
               "lower_05": -0.4,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 1,
               "median": 8.9,
               "upper_95": 0.3,
               "lower_05": -0.4,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 0,
               "median": 34,
               "upper_95": 3,
               "lower_05": -3,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 1,
               "median": 2.9,
               "upper_95": 0.3,
               "lower_05": -0.2,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 1,
               "median": 42.3,
               "upper_95": 3.2,
               "lower_05": -1.6,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 2,
               "median": -0.87,
               "upper_95": 0.19,
               "lower_05": -0.11,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 780,
               "upper_95": 240,
               "lower_05": -180,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 2,
               "median": 0.16,
               "upper_95": 0.04,
               "lower_05": -0.04,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             }
           ],
+          "is_preferred": false,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPriorComovingVT",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
@@ -3547,93 +3581,94 @@
         },
         {
           "pe_set_name": "LVCPrior",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPrior/GW190910_012619_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 1,
               "median": 7.7,
               "upper_95": 0.4,
               "lower_05": -0.3,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 1,
               "median": 9.0,
               "upper_95": 0.3,
               "lower_05": -0.3,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 0,
               "median": 36,
               "upper_95": 8,
               "lower_05": -3,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 1,
               "median": 2.8,
               "upper_95": 0.3,
               "lower_05": -0.4,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 0,
               "median": 45,
               "upper_95": 9,
               "lower_05": -3,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 2,
               "median": -0.69,
               "upper_95": 0.29,
               "lower_05": -0.16,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 790,
               "upper_95": 250,
               "lower_05": -190,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 2,
               "median": 0.16,
               "upper_95": 0.05,
               "lower_05": -0.04,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             }
           ],
+          "is_preferred": false,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPrior",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
@@ -3641,100 +3676,101 @@
         },
         {
           "pe_set_name": "LVCPriorComovingVT",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPriorComovingVT/GW190910_012619_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 1,
               "median": 7.7,
               "upper_95": 0.4,
               "lower_05": -0.3,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 1,
               "median": 9.0,
               "upper_95": 0.3,
               "lower_05": -0.3,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 0,
               "median": 36,
               "upper_95": 9,
               "lower_05": -3,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 1,
               "median": 2.8,
               "upper_95": 0.3,
               "lower_05": -0.4,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 0,
               "median": 45,
               "upper_95": 10,
               "lower_05": -3,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 2,
               "median": -0.7,
               "upper_95": 0.31,
               "lower_05": -0.15,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 780,
               "upper_95": 240,
               "lower_05": -190,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 2,
               "median": 0.16,
               "upper_95": 0.04,
               "lower_05": -0.04,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             }
           ],
+          "is_preferred": false,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPriorComovingVT",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
           ]
         }
       ],
-      "event_description": null
+      "event_description": ""
     },
     {
       "event_name": "GW190920_113516",
@@ -3746,25 +3782,25 @@
       "search": [
         {
           "pipeline_name": "IAS",
-          "search_statistics": [
+          "parameters": [
             {
               "parameter_name": "pastro",
+              "decimal_places": 2,
               "median": 0.57,
               "upper_95": null,
               "lower_05": null,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             },
             {
               "parameter_name": "far",
+              "decimal_places": 2,
               "median": 1.8,
               "upper_95": null,
               "lower_05": null,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "1/year"
             }
           ]
@@ -3773,93 +3809,94 @@
       "pe_sets": [
         {
           "pe_set_name": "IASPrior",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPrior/GW190920_113516_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 2,
               "median": 3.74,
               "upper_95": 0.17,
               "lower_05": -0.17,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 3,
               "median": 4.231,
               "upper_95": 0.04,
               "lower_05": -0.013,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 4,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 1,
               "median": 6.0,
               "upper_95": 3.2,
               "lower_05": -1.5,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 1,
               "median": 3.1,
               "upper_95": 1.0,
               "lower_05": -0.9,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 1,
               "median": 10.4,
               "upper_95": 2.5,
               "lower_05": -0.7,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 2,
               "median": 0.6,
               "upper_95": 0.26,
               "lower_05": -0.06,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 600,
               "upper_95": 300,
               "lower_05": -200,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 2,
               "median": 0.13,
               "upper_95": 0.06,
               "lower_05": -0.05,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             }
           ],
+          "is_preferred": true,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPrior",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
@@ -3867,93 +3904,94 @@
         },
         {
           "pe_set_name": "IASPriorComovingVT",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPriorComovingVT/GW190920_113516_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 2,
               "median": 3.76,
               "upper_95": 0.16,
               "lower_05": -0.17,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 3,
               "median": 4.231,
               "upper_95": 0.039,
               "lower_05": -0.013,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 4,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 1,
               "median": 6.0,
               "upper_95": 3.3,
               "lower_05": -1.5,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 1,
               "median": 3.2,
               "upper_95": 0.9,
               "lower_05": -1.0,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 1,
               "median": 10.3,
               "upper_95": 2.7,
               "lower_05": -0.6,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 2,
               "median": 0.6,
               "upper_95": 0.26,
               "lower_05": -0.06,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 600,
               "upper_95": 300,
               "lower_05": -200,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 2,
               "median": 0.13,
               "upper_95": 0.05,
               "lower_05": -0.05,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             }
           ],
+          "is_preferred": false,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/IASPriorComovingVT",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
@@ -3961,93 +3999,94 @@
         },
         {
           "pe_set_name": "LVCPrior",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPrior/GW190920_113516_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 2,
               "median": 3.73,
               "upper_95": 0.16,
               "lower_05": -0.15,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 3,
               "median": 4.229,
               "upper_95": 0.014,
               "lower_05": -0.012,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 4,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 1,
               "median": 6.1,
               "upper_95": 3.2,
               "lower_05": -1.5,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 1,
               "median": 3.1,
               "upper_95": 0.9,
               "lower_05": -0.9,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 1,
               "median": 10.4,
               "upper_95": 2.6,
               "lower_05": -0.7,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 2,
               "median": 0.6,
               "upper_95": 0.07,
               "lower_05": -0.06,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 600,
               "upper_95": 300,
               "lower_05": -200,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 2,
               "median": 0.13,
               "upper_95": 0.05,
               "lower_05": -0.04,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             }
           ],
+          "is_preferred": false,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPrior",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
@@ -4055,100 +4094,101 @@
         },
         {
           "pe_set_name": "LVCPriorComovingVT",
-          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
+          "data_url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPriorComovingVT/GW190920_113516_posterior_samples.feather",
           "waveform_family": "IMRPhenomXPHM",
           "parameters": [
             {
               "parameter_name": "chirp_mass_source",
+              "decimal_places": 2,
               "median": 3.75,
               "upper_95": 0.16,
               "lower_05": -0.16,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "chirp_mass",
+              "decimal_places": 3,
               "median": 4.229,
               "upper_95": 0.015,
               "lower_05": -0.013,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 4,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_1_source",
+              "decimal_places": 1,
               "median": 6.2,
               "upper_95": 3.7,
               "lower_05": -1.6,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "mass_2_source",
+              "decimal_places": 1,
               "median": 3.1,
               "upper_95": 0.9,
               "lower_05": -1.0,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": "Msun"
             },
             {
               "parameter_name": "total_mass_source",
+              "decimal_places": 1,
               "median": 10.5,
               "upper_95": 3.0,
               "lower_05": -0.8,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 3,
               "unit": "Msun"
             },
             {
               "parameter_name": "chi_eff",
+              "decimal_places": 2,
               "median": 0.6,
               "upper_95": 0.07,
               "lower_05": -0.06,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             },
             {
               "parameter_name": "luminosity_distance",
+              "decimal_places": 0,
               "median": 600,
               "upper_95": 300,
               "lower_05": -200,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 1,
               "unit": "Mpc"
             },
             {
               "parameter_name": "redshift",
+              "decimal_places": 2,
               "median": 0.13,
               "upper_95": 0.05,
               "lower_05": -0.05,
               "is_upper_bound": false,
               "is_lower_bound": false,
-              "sigfigs": 2,
               "unit": null
             }
           ],
+          "is_preferred": false,
           "links": [
             {
-              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main/LVCPriorComovingVT",
+              "url": "https://github.com/seth-olsen/new_BBH_mergers_O3a_IAS_pipeline/tree/main",
               "content_type": "posterior_samples",
               "description": "GitHub repository with samples for this PE run."
             }
           ]
         }
       ],
-      "event_description": null
+      "event_description": ""
     }
   ],
   "schema_version": "0.1.0"
